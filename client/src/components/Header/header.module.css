@@ -1,0 +1,55 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 80%;
+    margin: 0 auto;
+    height: 100px;
+}
+
+
+.nav {
+    display: flex;
+    gap: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.links {
+    color: #000;
+}
+
+.links:visited {
+    color: #000;
+}
+
+.links:hover {
+    color: #E3242B;
+    transition-duration: 0.3s;
+}
+
+
+.logo {
+    width: 60px;
+    border-radius: 50%;
+}
+
+.subscribe {
+    padding: 10px 15px; 
+    background-color: #000;
+    border: 1px solid #000;
+    border-radius: 50px;
+    cursor: pointer;
+    font-family: "Protest Riot", sans-serif;
+    color: #fff;
+}
+
+.subscribe:hover {
+    background-color: #E3242B;
+    border-color: #E3242B;
+    transition-duration: 0.2s;
+}
