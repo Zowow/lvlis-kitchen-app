@@ -1,0 +1,34 @@
+.aboutpage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Fredoka", sans-serif;
+    width: 100%;
+    background-image: url('../../resources/background-hero2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.aboutpage_container {
+    max-width: 800px;
+    background-color: #fff;
+    border-radius: 40px;
+    padding: 12px;
+    position: relative;
+    margin: 20px;
+    border: 1px solid black;
+}
+
+.container_msg {
+    border: 2px solid #E3242B;
+    border-radius: 30px;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 5%;
+}

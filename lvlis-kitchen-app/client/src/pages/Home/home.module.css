@@ -1,0 +1,164 @@
+.home {
+    width: 100%;
+    height: calc(100vh - 100px);
+    background-image: url('../../resources/background-hero2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: "Fredoka", sans-serif;
+}
+
+.home_card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+}
+
+.home_card_container {
+    width: 550px;
+    background-color: #fff;
+    border-radius: 40px;
+    padding: 12px;
+    position: relative;
+    margin: 20px;
+}
+
+.home_card_container .chili01 {
+    position: absolute;
+    height: 130px;
+    top: 60px;
+    left: -80px;
+}
+
+.home_card_container .chili02 {
+    position: absolute;
+    width: 120px;
+    right: -50px;
+    bottom: 20%;
+}
+
+.home_card_container .garlic01 {
+    position: absolute;
+    height: 100px;
+    top: 10%;
+    right: -50px;
+}
+
+.container_border {
+    border: 2px solid #E3242B;
+    border-radius: 30px;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 5%;
+}
+
+.container_border > *{
+    margin: 0;
+}
+
+.hrline {
+    width: 150px;
+}
+
+.hrline2 {
+    width: 150px;
+    margin: 40px auto;
+    display: block;
+}
+
+.container_border h1 {
+    font-size: 3rem;
+    z-index: 1;
+}
+
+.container_border span{
+    color: #E3242B;
+}
+
+.container_border p {
+    font-size: 1.3rem;
+}
+
+.container_border button {
+    background-color: #E3242B;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+
+/* Product Used */
+.product_used {
+    text-align: center;
+    font-family: "Fredoka", sans-serif;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 20px;
+    background-color: #F0F0F0;
+    padding: 40px 0;
+}
+
+.product_used h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+h2 span {
+    color: #E3242B;
+}
+
+.product_used * {
+    margin: 0;
+}
+
+.product_used .hrline{
+    align-self: center;
+}
+
+.food {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 150px));
+    justify-content: center;
+    gap: 2rem;
+}
+
+.food_type_avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px #E3242B solid;
+    margin-bottom: 20px;
+}
+
+.food_type_avatar:hover {
+    transform: scale(1.2);
+    transition: ease-out;
+    transition-duration: 0.3s;
+}
+
+@media (max-width: 425px) {
+    .container_border h1 {
+        font-size: 2rem;
+    }
+    
+    .container_border p {
+        font-size: 1rem;
+    }
+    
+    .container_border button {
+        font-size: 0.8rem;
+    }
+}

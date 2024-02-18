@@ -1,0 +1,82 @@
+.news_letter {
+    background-color: #f0f0f0;
+    padding: 40px 0 150px;
+    font-family: "Fredoka", sans-serif;
+    text-align: center;
+    position: relative;
+}
+
+.chili_plant,  .garlic_plant {
+    position: absolute;
+}
+
+.chili_plant {
+    bottom: 0;
+    left: 5%;
+    width: 25vw;
+}
+
+.garlic_plant {
+    bottom: 0;
+    right: 5%;
+    width: 15vw;
+}
+
+
+
+.hrline {
+    width: 150px;
+    display: block;
+    margin: 0 auto 60px auto;
+}
+
+.news_letter .msg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 40px;
+}
+
+.msg h2 {
+    font-size: 2.5rem;
+    padding: 0 10px;
+}
+
+.msg h2 span {
+    color: #E3242B;
+}
+
+.msg p {
+    font-size: 1.2rem;
+    padding: 0 10px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form_box {
+    background-color: #fff;
+    border-radius: 2rem;
+    padding: 10px;
+}
+
+.form_box input{
+    border: none;
+    color: #000;
+    background-color: #fff;
+    outline: none;
+    padding: 0 10px;
+}
+
+.form_box button {
+    border: none;
+    padding: 12px 10px; 
+    border-radius: 1rem;
+    background-color: #E3242B;
+    color: #fff;
+    cursor: pointer;
+}
